@@ -1,0 +1,18 @@
+{
+  "name": "jwt-status-list-ts",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "bun build --target=node ./src/index.ts --outdir=build --splitting"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "fflate": "^0.8.1",
+    "zod": "^3.22.4"
+  }
+}
